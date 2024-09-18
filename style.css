@@ -1,0 +1,63 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for centering the box */
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #FF885B, #6CBEC7);
+}
+
+/* Card box styling */
+.box {
+    padding: 50px;
+    height: 340px; /* Adjusts to the content */
+    width: 270px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(107, 10, 10, 0.349);
+    background-color: rgba(102, 204, 187, 0.483);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically */
+}
+
+/* Styling the image */
+.box img {
+    height: 140px;
+    width: 140px;
+    border: 5px solid rgb(212, 129, 46);
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px; /* Adds space between the image and text */
+}
+
+/* Text styling */
+.box h3 {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Button styling */
+.box button {
+    background-color: rgb(212, 129, 46);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: grab; /* Fxes the cursor property */
+}
